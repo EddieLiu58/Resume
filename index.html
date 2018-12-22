@@ -1,0 +1,328 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css"
+    />
+    <!-- aos.css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- aos.js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- 解決jquery多版本衝突 
+    <script type="text/javascript"> 
+    var jQuery_3_3_1 = $.noConflict(true); 
+    </script>-->
+    <!-- slide.js -->
+    <script src="./js/slide.js"></script>
+    <!-- headroom -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/headroom.min.js'></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="Head" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#EddieLiu">EddieLiu</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#Introduction"
+              >簡介<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skill">專業技能</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#Photography">攝影分享</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- jumbotron -->
+    <div
+      id="EddieLiu"
+      class="jumbotron jumbotron-fluid  animated  zoomInUp delay-1s"
+    >
+      <div class="container">
+       
+           <h1 class="display-3 animated  zoomIn delay-2s">你好!我是彥廷</h1>
+        <br />
+        <h1 class=" display-5 animated zoomIn delay-3s">
+          很跟高興能與你相遇。
+        </h1>
+        <div class="animated  zoomIn delay-4s">
+          <button type="button" class="btn btn-info btn-lg">
+            <a href="#Introduction">認識我</a>
+          </button>
+        </div>
+        </div>  
+    </div>
+    <!-- Introduction -->
+    <div id="Introduction" class="bg">
+      <div class="Img1"></div>
+      <div class="title"  data-aos="flip-right">
+        <h2 class="display-3">自我介紹</h2>
+      </div>
+    </div>
+ 
+ 
+   <div class="Introduction-text">
+      <h4>
+        您好!我是彥廷，也可以叫我Eddie，今年８月取得國立東華大學電機研究所碩士。<br /><br />
+        畢業論文為：基於LoRaWAN實現物聯網即時水質監測系統。 <br /><br />
+        實作物聯網系統後了解到一套系統就算功能完整，但數據呈現及網頁介面未經包裝設計，實在很難吸引大眾使用，<br />為此決定投入前端的大家庭，設計讓人為之一亮的網頁。
+        <br /><br />
+        平時會帶著微單眼記錄生活點滴，剛好能訓練構圖及美感，成為富有美感的前端工程師。
+      </h4>
+    </div> 
+   
+  
+    <!-- skill -->
+    <div id="skill" class="bg">
+      <div class="Img2"></div>
+      <div class="title"  data-aos="flip-left">
+        <h2 class="display-3">專業技能</h2>
+      </div>
+    </div>
+    <!-- card -->
+    <div class="d-flex container mt-3" data-aos="fade-up">
+        <div class="card-deck m-auto">
+      <div class="card m-sm-12">
+        <img
+          class="card-img-top"
+          src="img\HTML5-logo.svg"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 90%"
+            >
+              技能學習:90%
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-sm-12">
+        <img class="card-img-top" src="img\css-3.svg" alt="image cap" />
+        <div class="card-body">
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 80%"
+            >
+              技能學習:80%
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-sm-12">
+        <img
+          class="card-img-top"
+          src="img\Badge_js-strict.svg"
+          alt="image cap"
+        />
+        <div class="card-body">
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 60%"
+            >
+              技能學習:60%
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-sm-12">
+        <img
+          class="card-img-top"
+          src="img\Node.js_logo.svg"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 60%"
+            >
+              技能學習:60%
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- card2 -->
+    <div class="d-flex container mt-3 mb-3" data-aos="fade-up">
+        <div class="card-deck m-auto">
+      <div class="card m-sm-12">
+        <img
+          class="card-img-top"
+          src="https://goo.gl/zfrAsV"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 90%"
+            >
+              技能學習:90%
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-sm-12">
+        <img
+          class="card-img-top"
+          src="https://goo.gl/E2FJc7"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 80%"
+            >
+              技能學習:80%
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-sm-12">
+        <img
+          class="card-img-top"
+          src="http://www.stickpng.com/assets/images/58482acecef1014c0b5e4a1e.png"
+          alt="Card image cap" 
+        />
+        <div class="card-body">
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 50%"
+            >
+              技能學習:50%
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-sm-12">
+        <img class="card-img-top" src="img\Git-logo.svg" alt="Card image cap" />
+        <div class="card-body">
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="60"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 60%"
+            >
+              技能學習:60%
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- Photography-->
+    <div id="Photography" class=" bg ">
+      <div class="Img3"></div>
+
+      <div class="title" data-aos="flip-right">
+        <h2 class="display-3">攝影分享</h2>
+      </div>
+    </div>
+    <!-- Swiper -->
+    <div class="swiper-container container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://goo.gl/2fDtyo" /></div>
+        <div class="swiper-slide"><img src="https://goo.gl/CdmtQV" /></div>
+        <div class="swiper-slide"><img src="https://goo.gl/AcGAus" /></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <!-- Footer -->
+
+    <script>
+       var elem = document.getElementById( "Head" )
+  	var headroom = new Headroom( elem, {
+  	// 參數設定[註1]
+    "offset": 500, // 當捲軸到哪時，取消固定
+    "tolerance": 1,
+  		"scroller": window, // 捲軸
+  		"classes": {
+  			"initial": "animated", // 初始的類別
+  			"pinned": "bounceInDown", // 固定時新增的類別(這裡運用Animate.css的類別)
+  			"unpinned": "bounceOutUp", // 取消固定時新增的類別(這裡運用Animate.css的類別)
+  			"top": "headroom--top", // 當捲軸在最上面時新增的類別
+  			"notTop": "headroom--not-top", // 當捲軸不在最上面時新增的類別
+  			"bottom": "headroom--bottom", // 當捲軸在最下面時新增的類別
+  			"notBottom": "headroom--not-bottom" // 當捲軸不在最下面時新增的類別
+  		},
+  	});
+  	headroom.init();
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script>
+      AOS.init({ duration: 1200 });
+    </script>
+  </body>
+</html>
