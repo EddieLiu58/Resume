@@ -1,5 +1,3 @@
-/* (function($){
-    })(jQuery_3_3_1);  */
 $(document).ready(function() {
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a,.btn a, footer a[href='#myPage']").on("click", function(event) {
