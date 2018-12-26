@@ -1,11 +1,10 @@
 //bootstrap
-@import "./node_modules/bootstrap/scss/functions";
-@import "./helpers/variables";
-@import "./node_modules/bootstrap/scss/mixins";
-@import "./node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/functions";
+@import "helpers/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/bootstrap";
 //google-fonts
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC|Baloo+Thambi");
-@import "./node_modules/bootstrap-social-gh-pages/bootstrap-social.css";
 body {
   margin: 0;
   padding: 0;
